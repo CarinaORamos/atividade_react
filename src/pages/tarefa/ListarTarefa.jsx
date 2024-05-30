@@ -11,7 +11,6 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
-import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import ClearIcon from '@mui/icons-material/Clear';
 import Modal from '@mui/material/Modal';
@@ -136,7 +135,7 @@ const ListarTarefa = () => {
         </CardContent>
         <CardActions>
             <Button size="small" variant="contained" color="success" onClick={handleOpen}>Criar Tarefa</Button>
-            <Button size="small" variant="outlined" color="error" >Cancelar</Button>
+            <Button size="small" variant="contained" color="error" >Cancelar</Button>
       </CardActions> 
     </Card>
     <div>
